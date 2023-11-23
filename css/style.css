@@ -1,0 +1,250 @@
+.navigation-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: min-content;
+    background-color: rgb(50, 50, 204);
+}
+
+.navigation {
+    display: flex;
+    gap: 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: table;
+    padding: 10px 25px;
+    background-size: 20px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: rgb(206, 208, 229);
+    color: black;
+}
+
+.navigation h4{
+    margin: 0;
+}
+
+.title-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    background-color: white;
+}
+
+/* Mark Main */
+
+#main-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.review-section {
+    flex-basis: 60%;
+    flex-grow: 0;
+    margin-right: 15%;
+    padding: 20px;
+    background-color: white;
+    border: 1px;
+}
+
+.review-section img {
+    max-width: 100%;
+    max-height: 150%;
+}
+
+.navigation-header img {
+    max-width: 5%;
+    max-height: 5%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.message-us {
+    flex-basis: 30%;
+    flex-grow: 0;
+    background-color: gainsboro;
+    border-radius: 8px;
+    padding-left: 8px;
+}
+
+.input-message-us{
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    margin-left: 10px;
+}
+
+.inout{
+    margin-left: 10px;
+}
+
+.primary-button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input, select {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.guest img{
+    max-width: 5%;
+    max-height: 5%;
+}
+
+
+
+#sign {
+    color: white;
+    font-weight: 16px;
+    font-weight: normal;
+    background-color: green;
+    display: inline-block;
+}
+
+.input-container {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-container input,
+.input-container select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.guest img{
+    margin-right: 10px;
+}
+
+.guest-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.guest-profile h4{
+    margin: 5px;
+}
+
+.guest-profile h6{
+    margin: 5px;
+}
+
+.guest{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+}
+
+.additional {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.additional h2,
+.additional p,
+.additional ol {
+    margin: 0;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 568px) { /* iPhone SE width */
+    .navigation-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navigation {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navigation a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .title-header {
+        align-items: flex-start;
+    }
+
+    #main-section {
+        flex-direction: column;
+    }
+
+    .review-section {
+        margin-right: 0;
+        padding: 10px;
+    }
+
+    .navigation-header img {
+        padding: 10px;
+    }
+
+    .message-us {
+        padding-left: 10px;
+    }
+
+    .input-container {
+        width: 100%;
+    }
+
+    .guest img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .guest-profile {
+        align-items: flex-start;
+    }
+
+    .guest-profile h4,
+    .guest-profile h6 {
+        margin: 5px 0;
+    }
+
+    .guest {
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .additional {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .additional h2,
+    .additional p,
+    .additional ol {
+        margin: 0;
+        line-height: 1.5;
+    }
+
+    .title-header {
+        background-color: white;
+    }
+}
+
